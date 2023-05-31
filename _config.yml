@@ -21,7 +21,6 @@
 # Build settings
 plugins:
   - jekyll-dotenv
-  - jekyll-exif-data
 
 image_processing:
   large:
@@ -62,4 +61,4 @@ image_processing:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-exclude: [Dockerfile, LICENSE]
+exclude: [Dockerfile, LICENSE, docker-compose.yml, README.md, Procfile]
